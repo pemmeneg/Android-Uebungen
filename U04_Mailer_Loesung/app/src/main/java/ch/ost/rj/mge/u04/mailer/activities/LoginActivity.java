@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity implements LoginInputFragme
         loginSubmitFragment.updateButtonAvailability(inputsAreValid);
     }
 
+
     @Override
     public void onSubmitClicked() {
         getSupportFragmentManager()
